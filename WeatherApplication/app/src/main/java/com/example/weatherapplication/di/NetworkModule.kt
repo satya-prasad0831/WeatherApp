@@ -84,7 +84,6 @@ object NetworkModule {
             .baseUrl(GEOCODING_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-
     }
     @Provides
     @Singleton
